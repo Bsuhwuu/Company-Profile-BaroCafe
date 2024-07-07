@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Sriracha&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Tambahkan CSS Tailwind ke dalam file CSS Anda */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spin {
+  animation: spin 40s linear infinite;
+}
+
+/* smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+/* Tambahkan gaya untuk container slider */
+  
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+/* Testimoni.css */
+
+.testimoni-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.testimonial-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.testimonial-item img {
+  width: 100%;
+  border-radius: 50%; /* Mengubah gambar menjadi lingkaran */
+}
+
+.testimonial-content h3 {
+  margin-top: 10px;
+}
+
+.testimonial-content p {
+  margin-top: 5px;
+}
+/* Dalam file testimoni.css atau file CSS Anda */
+.testimonial {
+margin: 0; /* Menghapus margin */
+}
+
+.slider-wrapper {
+padding: 0; /* Menghapus padding */
+}
+
+.slick-slider {
+margin: 0; /* Menghapus margin */
+}
+/* Login */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*  FIle produk Admin */
+/* CSS */
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Atur z-index yang lebih tinggi dari z-index sidebar */
+}
+
+.fixed-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  z-index: 900; /* Atur z-index yang lebih rendah dari z-index header */
+  background-color: #333; /* Atur warna latar belakang sidebar */
+  color: #fff; /* Atur warna teks sidebar */
+}
