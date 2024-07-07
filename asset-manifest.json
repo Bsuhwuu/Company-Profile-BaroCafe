@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Company-Profile-BaroCafe/frontend/static/css/main.01232bbf.css",
+    "main.js": "/Company-Profile-BaroCafe/frontend/static/js/main.c4c57d40.js",
+    "static/media/coffee-white.png": "/Company-Profile-BaroCafe/frontend/static/media/coffee-white.35395c1e16d672eada4d.png",
+    "static/media/coffee2.png": "/Company-Profile-BaroCafe/frontend/static/media/coffee2.3e7227835d207d1feb2b.png",
+    "static/media/coffee-footer.jpg": "/Company-Profile-BaroCafe/frontend/static/media/coffee-footer.65d3ec9d26021553a60f.jpg",
+    "static/media/coffee_logo.png": "/Company-Profile-BaroCafe/frontend/static/media/coffee_logo.92261539d3d24f61d392.png",
+    "index.html": "/Company-Profile-BaroCafe/frontend/index.html",
+    "main.01232bbf.css.map": "/Company-Profile-BaroCafe/frontend/static/css/main.01232bbf.css.map",
+    "main.c4c57d40.js.map": "/Company-Profile-BaroCafe/frontend/static/js/main.c4c57d40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01232bbf.css",
+    "static/js/main.c4c57d40.js"
+  ]
+}
